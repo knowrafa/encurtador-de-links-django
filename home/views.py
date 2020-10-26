@@ -8,4 +8,7 @@ def home(request):
 
 
 def encurtador(request):
-    return render(request, "encurtador.html")
+    return render(request, "encurtador/encurtador.html")
+
+def mostrar_tabela(request):
+	return render(request, "column/index.html")
